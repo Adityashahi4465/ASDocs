@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json()); // middleWere it will convert data into json formate from client side
 app.use(authRouter); // known as middleWere to manipulate the data between client and server
 app.use(documentRouter);
-const DB = "mongodb+srv://aditya:adityashahi@cluster1.rocl7uy.mongodb.net/?retryWrites=true&w=majority";
+const DB = "<YOUR MONGODB DATABASE URL>";
 
 /* 
 app.post('/api/signup')  // Route of our api e.g. localhost:3001/api/signup
